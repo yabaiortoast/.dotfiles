@@ -28,7 +28,7 @@ cmd + shift - 7 : yabai -m window --space 7;
 cmd + shift - 8 : yabai -m window --space 8;
 cmd + shift - 9 : yabai -m window --space 9;
 
-# cmd - return : /Applications/kitty.app/Contents/MacOS/kitty --single-instance -d ~
+# cmd - return : /Applications/kitty.app/Contents/MacOS/kitty -d ~
 # cmd - return : open -n -a Kitty 
 # cmd - return : sleep 0.5 && osascript -e 'tell application "System Events" to keystroke "n" using command down'
 cmd - return : /bin/zsh -c 'if pgrep -x kitty >/dev/null; then osascript -e "tell application \"Kitty\" to activate" -e "tell application \"System Events\" to keystroke \"n\" using command down"; else open -a "Kitty"; fi'
