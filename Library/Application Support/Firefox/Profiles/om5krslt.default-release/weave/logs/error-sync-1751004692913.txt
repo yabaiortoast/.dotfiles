@@ -1,0 +1,19 @@
+1751004687892	Sync.LogManager	DEBUG	Flushing file log
+1751004687905	Sync.LogManager	DEBUG	Log cleanup threshold time: 1750140687905
+1751004687920	Sync.LogManager	DEBUG	Done deleting files.
+1751004692369	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1751004692910	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1751004692910	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1751004692912	Sync.Service	DEBUG	User-Agent: Firefox/130.0 (Intel Mac OS X 10.15) FxSync/1.132.0.20240829075237.desktop
+1751004692912	Sync.Service	INFO	Starting sync at 2025-06-27 16:11:32 in browser session IF_JR_Ru4QB7
+1751004692912	Sync.Service	DEBUG	In sync: should login.
+1751004692912	Sync.Service	INFO	User logged in successfully - verifying login.
+1751004692912	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState has no FxA user
+1751004692912	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1751004692912	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1751004692912	Sync.Service	DEBUG	Fetching unlocked auth state returned error.login.reason.no_username
+1751004692912	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1751004692913	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1751004692913	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1751004692913	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.no_username(resource://services-sync/service.sys.mjs:1041:15) JS Stack trace: onNotify@service.sys.mjs:1041:15
+1751004692913	Sync.Service	DEBUG	Not syncing: login returned false.
